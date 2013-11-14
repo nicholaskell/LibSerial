@@ -11,3 +11,17 @@
 *.lai
 *.la
 *.a
+Makefile
+config.h
+config.log
+config.status
+doc/Makefile
+doc/UML/Makefile
+doxygen.conf
+examples/.deps/
+examples/Makefile
+libtool
+src/.deps/
+src/Makefile
+src/SerialStreamBuf.loT
+stamp-h1

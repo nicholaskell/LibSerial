@@ -14,6 +14,11 @@
 #include <map>
 #include <errno.h>
 #include <signal.h>
+#include <cmath>
+#include <strings.h>
+#include <cstring>
+#include <string>
+#include <unistd.h>
 
 namespace
 {

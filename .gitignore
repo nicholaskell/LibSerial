@@ -25,3 +25,7 @@ src/.deps/
 src/Makefile
 src/SerialStreamBuf.loT
 stamp-h1
+examples/.libs/
+examples/readport
+examples/writeport
+src/.libs/

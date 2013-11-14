@@ -1,5 +1,7 @@
 #include <iostream>
 #include <SerialStream.h>
+#include <stdlib.h>
+
 
 int
 main( int    argc,

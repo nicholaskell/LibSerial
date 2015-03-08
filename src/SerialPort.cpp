@@ -30,7 +30,7 @@
 #include <sys/ioctl.h>
 #include <sys/time.h>
 #include <signal.h>
-#include <cmath>
+//#include <cmath>
 #include <strings.h>
 #include <cstring>
 #include <string>
@@ -1395,7 +1395,7 @@ namespace
         // If abs(result.tv_usec) is larger than MICROSECONDS_PER_SECOND,
         // then increment/decrement result.tv_sec accordingly.
         //
-        if ( std::abs( result.tv_usec ) > MICROSECONDS_PER_SECOND )
+        if ( abs( result.tv_usec ) > MICROSECONDS_PER_SECOND )
         {
             int num_of_seconds = (result.tv_usec / MICROSECONDS_PER_SECOND ) ;
             result.tv_sec  += num_of_seconds ;
